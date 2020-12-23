@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#0E0E0E"
+    tools:context="com.example.covidguard.GeneralUsers">
+
+    <TextView
+        android:id="@+id/txtinfo"
+        android:layout_width="365dp"
+        android:layout_height="273dp"
+        android:layout_marginTop="28dp"
+        android:drawablePadding="10dp"
+        android:text="\u2022 We appreciate your efforts to stop the spread\n\n
+        \u2022 Turn on  Bluetooth \n\n
+        \u2022 Maintain Social Distancing \n\n
+        \u2022 Respond to Alert Notifications from App \n\n
+        \u2022 Test for Covid-19 \n\n
+        \u2022 Self Isolate Yourself \n\n
+        "
+        android:textColor="#FFFFFF"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.476"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/guideline9"
+        app:layout_constraintVertical_bias="0.039" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="214dp"
+        android:layout_height="37dp"
+        android:layout_marginBottom="16dp"
+        android:text="Welcome User!"
+        android:textColor="#FAFAFA"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/guideline9"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <android.support.constraint.Guideline
+        android:id="@+id/guideline9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_begin="70dp" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="344dp"
+        android:layout_height="58dp"
+        android:background="@drawable/btn_gradient_style"
+        android:fontFamily="@font/libre_baskerville"
+        android:text="Risk Analysis"
+        android:textColor="#FDFCFC"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.492"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtinfo"
+        app:layout_constraintVertical_bias="0.092" />
+
+</android.support.constraint.ConstraintLayout>

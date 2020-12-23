@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">CovidGuard</string>
+    <string name="next">Next</string>
+    <string name="get_started">Get Started</string>
+    <string name="todo">TODO</string>
+    <string name="upload_data">Upload Data</string>
+    <string name="request_permission_code">Request Permission Code</string>
+
+    <string name="bluetooth_text">Lets Work together and Stop the Spread of Covid-19 \n\n Covid Guard Securely records information like Venue ID and duration of your stay at the venue\n\n Respecting your privacy the data will only be stored safely in your local storage\n\n All you need to do is to Turn On Bluetooth!!</string>
+    <string name="turn_on_bluetooth">Turn on Bluetooth</string>
+    <string name="continues">Continue</string>
+    <string name="decline">Decline</string>
+    <string name="accept">Accept</string>
+    <string name="hello_user_permission_code_will_only_generated_to_the_infected_users_n_n_if_you_are_infected_and_if_you_would_like_to_help_to_stop_the_spread_of_the_pandemic_n_n_upload_your_local_storage_data_using_this_permission_code_n_n_we_appreciated_your_efforts_hope_you_had_a_speady_recovery_n">Hello User! Permission Code will only generated to the Infected Users\n\n If you are infected and if you would like to help to stop the spread of the pandemic\n\n Upload your Local Storage data using this permission code!\n\n We appreciated your efforts! Hope you had a speedy recovery\n</string>
+
+    <string name="i_have_tested_positive_for_coronavirus">I have Tested Positive for coronavirus</string>
+    <string name="infected_user" fontFamily="sans-serif-medium">Infected User</string>
+    <string name="i_tested_positive_for_covid">I Tested Positive for Covid</string>
+    <string name="i_am_covid_infected">I am Covid Infected</string>
+    <string name="upload_local_data">Upload Local Data</string>
+    <string name="u2022_we_appreciate_your_efforts_to_stop_the_spread_n_n_u2022_self_isolate_yourself_n_n_u2022_request_permission_codes_n_n_u2022_authorize_the_permission_codes_n_n_u2022_upload_data">• We appreciate your efforts to stop the spread\n\n • Self Isolate Yourself \n\n • Request Permission codes \n\n • Authorize the permission codes \n\n • Upload Data</string>
+    <string name="FAQ">FAQ\'s</string>
+
+</resources>
