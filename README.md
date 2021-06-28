@@ -1,2 +1,3 @@
 # COVID-GUARD-A-venue-accessing-based-privacy-preserving-solution-forCOVID-19-contact-tracing
-Contact Tracing Solutions are become need of hour to prevent the spread of covid-19. This project is mainly based on a venue based accessing contact tracing in which users after installing the applications needs to turn on the bluetooth and the application will scan all the nearby beacons and stored it in the database with entry and exit times of the venue where the beacons are established. If any infected user present in the same venues at the same time then the application will sent an High alert notifications stating the user had visited the infected location.
+Contact Tracing Solutions are become need of hour to prevent the spread of covid-19. This project is mainly about designing a android application for venue based contact tracing. 
+#Contact tracing # Decentralised Approach # Data Security 
